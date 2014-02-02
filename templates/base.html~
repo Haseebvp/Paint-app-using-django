@@ -1,0 +1,30 @@
+<html>
+<head><title>my paint app</title>
+{% load static %}
+<strong><link rel="stylesheet" href="{%static 'main.css'%}">
+</strong></head>
+<body>
+    <header>
+      <div class="container">
+        
+          <h1 class="logo">Paint-app</h1>
+          
+        
+
+
+
+<strong><nav>
+<ul class="menu">
+<li><a href='/home'>home</a></li>
+<li><a href='/gallery'>Gallery</a></li>
+
+</ul>
+</nav></strong>
+</div>
+</header>
+
+<div class="container">
+{% block content %}
+{% endblock %}
+</div>
+</html>
